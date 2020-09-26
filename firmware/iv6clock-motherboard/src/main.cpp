@@ -4,8 +4,6 @@
 
 #include "iv6_n.h"
 
-//#define DEBUG_CLOCK 1
-
 #define FASTLED_ENABLED 1
 
 /***********************************
@@ -376,6 +374,8 @@ void ColorSetupActivity::write_color() const
 
     BRIGHTNESS_HIGH = map(this->brighness, 0, 9, 0, 255);
 
+    solid_color.value = BRIGHTNESS_HIGH;
+
     EEPROM_save(solid_color.hue, BRIGHTNESS_HIGH);
 }
 
@@ -525,9 +525,6 @@ static void display_render_routine()
 
 void setup()
 {
-    Serial.begin(9600);
-    Serial.println(F("Booting..."));
-
     pinMode(PIN_SR_DATA, OUTPUT);
     pinMode(PIN_SR_LATCH, OUTPUT);
     pinMode(PIN_SR_CLOCK, OUTPUT);
