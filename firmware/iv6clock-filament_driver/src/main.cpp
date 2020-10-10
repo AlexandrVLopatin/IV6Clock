@@ -17,8 +17,8 @@ int main()
     for (;;)
     {
         PORTB = 1; // PB0 is off, PB1 is n
-        _delay_us(6);
+        _delay_us(300);
         PORTB = 2; // PB0 is on, PB1 is off
-        _delay_us(6);
+        _delay_us(300);
     }
 }
