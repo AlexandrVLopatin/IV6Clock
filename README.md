@@ -1,12 +1,12 @@
-Часы на советских вакуумно-люминисцентных индикаторах ИВ-6.
+VFD-Tube Clock.
 
-[Проект на EasyEDA](https://easyeda.com/account/project/detail?project=c7e82cc0991941c3baf93627a4c81e4a)
+[EasyEDA project](https://easyeda.com/account/project/detail?project=c7e82cc0991941c3baf93627a4c81e4a)
 
-[Плата ВЕРХ](https://github.com/AlexandrVLopatin/IV6Clock/blob/master/pcb/TOP.pdf)
+[PCB top](https://github.com/AlexandrVLopatin/IV6Clock/blob/master/pcb/TOP.pdf)
 
-[Плата НИЗ](https://github.com/AlexandrVLopatin/IV6Clock/blob/master/pcb/BOTTOM.pdf)
+[PCB bottom](https://github.com/AlexandrVLopatin/IV6Clock/blob/master/pcb/BOTTOM.pdf)
 
-[Чертеж корпуса](https://github.com/AlexandrVLopatin/IV6Clock/blob/master/case-fusion360/IV6Clock%20Drawing.pdf)
+[Case blueprints](https://github.com/AlexandrVLopatin/IV6Clock/blob/master/case-fusion360/IV6Clock%20Drawing.pdf)
 
 ![Photo](https://raw.githubusercontent.com/AlexandrVLopatin/IV6Clock/master/photo2.jpg)
 
