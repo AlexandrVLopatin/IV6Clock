@@ -108,8 +108,8 @@ struct
 ***********************************/
 
 #define PIN_LDR A2
-#define LDR_LOW_TRESHOLD 800
-#define LDR_HIGH_TRESHOLD 900
+#define LDR_LOW_TRESHOLD 600
+#define LDR_HIGH_TRESHOLD 700
 
 enum
 {
@@ -232,7 +232,12 @@ void ClockActivity::render()
     if (mode == 0 && millis() - mode_render_timer > 20000)
     {
         uint8_t running_bytes[5] = {
-            display_bytes.byte_0, display_bytes.byte_1, SYMBOL_MINUS, display_bytes.byte_3, display_bytes.byte_4};
+            display_bytes.byte_0,
+            display_bytes.byte_1,
+            SYMBOL_MINUS,
+            display_bytes.byte_3,
+            display_bytes.byte_4
+        };
 
         for (uint8_t i = 0; i < 5; i++)
         {
